@@ -26,15 +26,6 @@ Check out my [Portfolio](https://www.crio.do/learn/portfolio/sunilkumarojha444/?
 - [License](#license)
 
     </td>
-    
-    <td width="50%" >
-
-    [Project Website](https://myweatherdashboard.netlify.app/)
-
-<img src='https://user-images.githubusercontent.com/97356401/196056495-85a520b2-ef0b-4cfa-a7f5-366676115631.png' width='250' height='250' alt='Bitmoji cloud'/>
-
-<img src='https://user-images.githubusercontent.com/97356401/198838672-a7a3fa34-b907-4ab7-96ec-185b8723416f.png' width='230' height='230' alt='Bitmoji rain on me'/>
-    </td>
 
   </tr>
 </table>
