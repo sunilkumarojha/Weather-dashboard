@@ -114,6 +114,11 @@ export default function CityTiles(props) {
   }
 
   function CityCard(cityprops) {
+    // Convert temperature to Celsius
+  const tempInCelsius = Math.round((cityprops.city.main.temp - 32) * (5 / 9));
+
+  // Adjust wind speed (keeping it in mph or converting to another unit if needed)
+  const windSpeedKph = Math.round(cityprops.city.wind.speed * 1.60934); // Convert to kph
     return (
       <Col>
         <Card
@@ -155,8 +160,7 @@ export default function CityTiles(props) {
 
             {cityprops.city.main ? (
               <Card.Subtitle className="bold text-center" as="h1">
-                {Math.round(cityprops.city.main.temp)}
-                <sup>o</sup>
+                {tempInCelsius} <sup>°C</sup>
               </Card.Subtitle>
             ) : null}
 
@@ -183,7 +187,7 @@ export default function CityTiles(props) {
 
               {cityprops.city.weather ? (
                 <p className="text-center mb-0">
-                  Wind: {Math.round(cityprops.city.wind.speed)} mph
+                  Wind: {windSpeedKph} kph
                 </p>
               ) : null}
             </Card.Text>
