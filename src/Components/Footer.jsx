@@ -6,7 +6,7 @@ export default function Footer(){
 
     return(
         <footer className='myFont bold'>
-            <a href='https://nereidarondon.com/'><span role='img' aria-label='copyright'>©️</span>{year} Nereida Rondon</a>       
+            <span role='img' aria-label='copyright'>©️</span>{year} Sunil Ojha</a>       
         </footer>
     )
 } 
